@@ -6,7 +6,7 @@ This is a sample QA automation project using **Python**, **Selenium**, and **Pyt
 
 - `src/pages`: Page Object Model (POM) classes
 - `src/tests`: Test cases using pytest
-- `utils/conftest.py`: Fixtures and setup methods
+- `conftest.py`: Fixtures and setup methods
 
 ## How to Run
 

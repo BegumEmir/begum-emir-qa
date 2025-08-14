@@ -10,7 +10,7 @@ def test_careers_navigation(driver):
     assert home.is_loaded(), "Homepage not loaded"
 
     home.navigate_to_careers()
-    time.sleep(2)  # Sayfa geçişi için bekleme
+    time.sleep(2)
 
     assert careers.is_loaded(), "Careers page not loaded"
     assert careers.are_blocks_visible(), "Some content blocks are missing"
